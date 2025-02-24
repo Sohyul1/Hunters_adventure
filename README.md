@@ -1,2 +1,2 @@
-# RNG_game
-a game based on luck
+# Train or fight game
+# A game based on luck
