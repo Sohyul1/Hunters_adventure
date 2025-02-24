@@ -1,3 +1,8 @@
+# Aeron Dequito
+# 02/24/2025
+# A game about training
+
+
 # Import random 
 import random
 
@@ -85,13 +90,12 @@ while True:
                 enemy_dmg = enemy_atck - user_def
             else:
                 enemy_dmg = 1
-
             user_hp -= enemy_dmg
             print(f"\tThe {enemy_name} dealt {enemy_dmg} damage to you! Your HP:{user_hp}\n")
             
     # Monster won - display a death message
             if user_hp <= 0:
-                    print(f"You have died in a embarassing way\n")
+                    print(f"You have died in a the hand of a monster, you are still weak\n")
 
     # Ask for if they want to star a new life
         ans = input("\nThe game stops here, wanna play again? (yes/no) \n").lower().strip()
